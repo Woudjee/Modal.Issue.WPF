@@ -11,7 +11,6 @@
 
 	<ItemGroup>
 		<PackageReference Include="Blazor.Bootstrap" Version="3.3.1" />
-		<PackageReference Include="CodeBeam.MudBlazor.Extensions" Version="8.0.0" />
 		<PackageReference Include="Microsoft.AspNetCore.Components.WebView.Wpf" Version="9.0.30" />
 	</ItemGroup>
 	
