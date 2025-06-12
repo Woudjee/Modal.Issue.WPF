@@ -15,6 +15,8 @@ namespace Modal.Issue.WPF
             var serviceCollection = new ServiceCollection();
             serviceCollection.AddWpfBlazorWebView();
             serviceCollection.AddBlazorBootstrap();
+            serviceCollection.AddBlazorWebViewDeveloperTools();
+
             Resources.Add("services", serviceCollection.BuildServiceProvider());
         }
     }
